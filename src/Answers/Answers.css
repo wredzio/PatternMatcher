@@ -1,0 +1,28 @@
+.Answers__container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Answers__body {
+  position: relative;
+}
+
+.Answers__list {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  overflow-x: auto;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+.Answers__list--draggingOver {
+  background-color: rgba(211, 211, 211, 0.3);
+}
+
+.Answers__item {
+  margin-top: 24px;
+}
