@@ -26,3 +26,20 @@
 .Answers__item {
   margin-top: 24px;
 }
+
+
+@media (max-width: 600px) {
+  .Answers__list {
+    overflow: scroll;
+    overflow-y: auto;
+    flex-flow: row;
+  }
+
+  .Answers__item {
+    margin-top: 0;
+  }
+
+  .Answers__itemImage {
+    width: 100px;
+  }
+}

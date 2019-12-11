@@ -27,7 +27,7 @@ export const Answers = ({ answers }) => {
 
                   >
                     <div>
-                      {item.imageUrl && <img src={item.imageUrl} />}
+                      {item.imageUrl && <img className="Answers__itemImage" src={item.imageUrl} />}
                     </div>
                   </div>
                 )}

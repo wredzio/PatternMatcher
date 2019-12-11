@@ -13,6 +13,7 @@
   flex: 2;
 }
 
+
 .SelectExercise {
   height: 100%;
   width: 100%;
@@ -37,7 +38,8 @@
 .Button--Check {
   position: absolute;
   bottom: 24px;
-  right: 0;
+  right: 10px;
+  z-index: 10;
 }
 
 .Button {
@@ -56,4 +58,15 @@
   background: #494949;
   border-color: #494949;
   transition: all 0.4s ease 0s;
+}
+
+
+
+@media (max-width: 600px) {
+  .App {
+    flex-direction: column;
+  }
+  .AnswersSide {
+    flex: 1;
+  }
 }
