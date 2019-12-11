@@ -112,7 +112,7 @@ class App extends React.Component {
   }
 
   backToSelectExercise() {
-    this.setState({ selectedExerciseId: null });
+    window.location = window.location;
   }
 
   renderExercise() {
@@ -315,104 +315,48 @@ const data = [
   },
   {
     exerciseId: 2,
-    exerciseName: 'Cykl Kerbsa 1',
+    exerciseName: 'Cykl Mocznikowy',
     questions: [
       {
         id: 1,
         answerId: 1,
-        x: '76.7%',
-        y: '58%',
+        x: '55%',
+        y: '66%',
         selectedAnswers: [],
         isAnswerCorrect: null
       },
       {
         id: 2,
         answerId: 2,
-        x: '78.0%',
-        y: '71.6%',
+        x: '40.1%',
+        y: '73.8%',
         selectedAnswers: [],
         isAnswerCorrect: null
       },
       {
         id: 3,
         answerId: 3,
-        x: '57.6%',
-        y: '88.5%',
+        x: '6.25%',
+        y: '63.4%',
         selectedAnswers: [],
         isAnswerCorrect: null
       },
       {
         id: 4,
         answerId: 4,
-        x: '37.9%',
-        y: '87.6%',
+        x: '4.6%',
+        y: '41.5%',
         selectedAnswers: [],
         isAnswerCorrect: null
       },
       {
         id: 5,
         answerId: 5,
-        x: '0%',
-        y: '73.5%',
+        x: '20.6%',
+        y: '0.2%',
         selectedAnswers: [],
         isAnswerCorrect: null
-      },
-      {
-        id: 6,
-        answerId: 6,
-        x: '1.6%',
-        y: '58.8%',
-        selectedAnswers: [],
-        isAnswerCorrect: null
-      },
-      {
-        id: 7,
-        answerId: 7,
-        x: '0%',
-        y: '34.9%',
-        selectedAnswers: [],
-        isAnswerCorrect: null
-      },
-      {
-        id: 8,
-        answerId: 8,
-        x: '9.4%',
-        y: '15.8%',
-        selectedAnswers: [],
-        isAnswerCorrect: null
-      },
-      {
-        id: 9,
-        answerId: 9,
-        x: '15.2%',
-        y: '5.3%',
-        selectedAnswers: [],
-        isAnswerCorrect: null
-      },
-      {
-        id: 10,
-        answerId: 10,
-        x: '59.6%',
-        y: '13%',
-        selectedAnswers: [],
-        isAnswerCorrect: null
-      },
-      {
-        id: 11,
-        answerId: 11,
-        x: '71.6%',
-        y: '31.9%',
-        selectedAnswers: [],
-        isAnswerCorrect: null
-      },
-      {
-        id: 12,
-        answerId: 12,
-        x: '68.7%',
-        y: '46.2%',
-        selectedAnswers: [],
-        isAnswerCorrect: null
-      },
+      }
     ],
     answers: [
       {
@@ -433,135 +377,67 @@ const data = [
       },
       {
         id: 5,
-        imageUrl: '',
-      },
-      {
-        id: 6,
-        imageUrl: '',
-      },
-      {
-        id: 7,
-        imageUrl: '',
-      },
-      {
-        id: 8,
-        imageUrl: '',
-      },
-      {
-        id: 9,
-        imageUrl: '',
-      },
-      {
-        id: 10,
-        imageUrl: '',
-      },
-      {
-        id: 11,
-        imageUrl: '',
-      },
-      {
-        id: 12,
         imageUrl: '',
       },
     ]
   },
   {
     exerciseId: 3,
-    exerciseName: 'Cykl Kerbsa 2',
+    exerciseName: 'B-oksydacja kwasow tłuszczowych',
     questions: [
       {
         id: 1,
         answerId: 1,
-        x: '76.7%',
-        y: '58%',
+        x: '61.25%',
+        y: '62.2%',
         selectedAnswers: [],
         isAnswerCorrect: null
       },
       {
         id: 2,
         answerId: 2,
-        x: '78.0%',
-        y: '71.6%',
+        x: '9.5%',
+        y: '67.2%',
         selectedAnswers: [],
         isAnswerCorrect: null
       },
       {
         id: 3,
         answerId: 3,
-        x: '57.6%',
-        y: '88.5%',
+        x: '0.1%',
+        y: '28.8%',
         selectedAnswers: [],
         isAnswerCorrect: null
       },
       {
         id: 4,
         answerId: 4,
-        x: '37.9%',
-        y: '87.6%',
+        x: '71.1%',
+        y: '12.6%',
         selectedAnswers: [],
         isAnswerCorrect: null
       },
       {
         id: 5,
         answerId: 5,
-        x: '0%',
-        y: '73.5%',
+        x: '68.8%',
+        y: '27.1%',
         selectedAnswers: [],
         isAnswerCorrect: null
       },
       {
         id: 6,
         answerId: 6,
-        x: '1.6%',
-        y: '58.8%',
+        x: '71.1%',
+        y: '40.1%',
         selectedAnswers: [],
         isAnswerCorrect: null
       },
       {
         id: 7,
         answerId: 7,
-        x: '0%',
-        y: '34.9%',
-        selectedAnswers: [],
-        isAnswerCorrect: null
-      },
-      {
-        id: 8,
-        answerId: 8,
-        x: '9.4%',
-        y: '15.8%',
-        selectedAnswers: [],
-        isAnswerCorrect: null
-      },
-      {
-        id: 9,
-        answerId: 9,
-        x: '15.2%',
-        y: '5.3%',
-        selectedAnswers: [],
-        isAnswerCorrect: null
-      },
-      {
-        id: 10,
-        answerId: 10,
-        x: '59.6%',
-        y: '13%',
-        selectedAnswers: [],
-        isAnswerCorrect: null
-      },
-      {
-        id: 11,
-        answerId: 11,
-        x: '71.6%',
-        y: '31.9%',
-        selectedAnswers: [],
-        isAnswerCorrect: null
-      },
-      {
-        id: 12,
-        answerId: 12,
-        x: '68.7%',
-        y: '46.2%',
+        x: '0.3%',
+        y: '41.4%',
         selectedAnswers: [],
         isAnswerCorrect: null
       },
@@ -593,26 +469,6 @@ const data = [
       },
       {
         id: 7,
-        imageUrl: '',
-      },
-      {
-        id: 8,
-        imageUrl: '',
-      },
-      {
-        id: 9,
-        imageUrl: '',
-      },
-      {
-        id: 10,
-        imageUrl: '',
-      },
-      {
-        id: 11,
-        imageUrl: '',
-      },
-      {
-        id: 12,
         imageUrl: '',
       },
     ]

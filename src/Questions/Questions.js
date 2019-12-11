@@ -27,7 +27,7 @@ export const Questions = ({ questions, selectedExerciseId }) => {
                 <div
                   className={
                     classNames(
-                      'Questions__answers',
+                      'Questions__answers' + selectedExerciseId,
                       snapshot.isDraggingOver ? 'Questions__answers--draggingOver' : '',
                       q.isAnswerCorrect === null ? '' : (q.isAnswerCorrect ? 'Questions__answers--correct' : 'Questions__answers--wrong')
                     )}

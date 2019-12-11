@@ -17,9 +17,23 @@
   max-height: 100vh;
 }
 
-.Questions__answers {
+.Questions__answers1 {
   width: 21.6%;
   height: 11.2%;
+  position: absolute;
+  background-color: rgba(80, 80, 80, 0.1);
+}
+
+.Questions__answers2 {
+  width: 29%;
+  height: 22%;
+  position: absolute;
+  background-color: rgba(80, 80, 80, 0.1);
+}
+
+.Questions__answers3 {
+  width: 28.4%;
+  height: 13.5%;
   position: absolute;
   background-color: rgba(80, 80, 80, 0.1);
 }
