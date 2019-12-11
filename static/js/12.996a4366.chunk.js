@@ -1,0 +1,2 @@
+(this["webpackJsonppattern-matcher"]=this["webpackJsonppattern-matcher"]||[]).push([[12],{108:function(t,p,e){t.exports=e.p+"static/media/Answer4.61d833c7.png"}}]);
+//# sourceMappingURL=12.996a4366.chunk.js.map
